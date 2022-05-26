@@ -1,18 +1,49 @@
 <!doctype  html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Internal Links</title>
+<meta charset="utf-8">
+<title>Simple slelctors</title>
+
+<style>
+	/* all h2 elements*/
+	h2 {
+		color: red;
+		text-align: center;
+	}
+
+	/* all wiht class="highlight" */
+
+.hilighlight{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: orange;
+	opacity: .6;
+}	
+
+/* elemnt with id="mainPoint" */
+#mainPoint{
+	font-size: 24px;
+	font-weight: bold;
+	background-color: orange;
+	opacity: .7;
+}
+
+/* all p and h1 elements */
+p, h1 {
+	color: green;
+	text-align: center;
+}
+</style>
 </head>
 <body>
-	<h1>Internal Links</h1>
-	<section>
-		we can link to a file in the same directoty as this HTML file like this:
-		<a href="same-file.html" title="Coursera class"> linking to a file in the same directory</a>
-'
-		<a href="same-file.html" title="Coursera class">
-			<div> DIV linking to file in the same directory</div>
-		</a>
-	</section>
+<h1>Simple slelctors(h1)</h1>
+<h2>Subheading 1 (h2)</h2>
+<p class="highlight"> this course is a amazing. I am learning a lot in this course. Thank ypu coursera fpr proving this course</p>
+<p class="highlight"> mango, orange, apple, lemond, pineapple</p>
+<div> This part is very important for me.
+<span id="mainPoint">id="mainPoint".</span>
+</div>
 </body>
 </html>
+	
